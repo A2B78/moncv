@@ -19,7 +19,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site-cv # Assure-toi que ce dossier contient les fichiers à publier
+          path: site-cv
 
       - name: Deploy to GitHub Pages
         id: deployment
